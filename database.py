@@ -11,7 +11,7 @@ postgres_url = config['database']['postgresql_database_url']
 mysql_url = config['database']['mysql_database_url']
 
 
-DATABASE_URL = mysql_url
+DATABASE_URL = sqlite_url
 
 engine = create_engine(DATABASE_URL)
 
